@@ -1,0 +1,11 @@
+{
+  "name": "Smart Hostel Allocation",
+  "description": "Smart Hostel Allocation System with Supabase PostgreSQL backend integration for students and administrators to manage campus room allocations, preferences, maintenance, and housing operations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
