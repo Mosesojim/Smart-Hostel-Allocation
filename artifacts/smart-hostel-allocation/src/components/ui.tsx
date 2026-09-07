@@ -218,9 +218,9 @@ export function PreferenceModal({
               onChange={(event) => setForm({ ...form, quietHours: event.target.value })}
               data-testid="select-quiet-hours"
             >
-              <option>9:00 pm – 5:00 am (Early sleeper)</option>
-              <option>10:00 pm – 6:00 am (Standard)</option>
-              <option>12:00 am – 8:00 am (Night study owl)</option>
+              <option>9:00 pm to 5:00 am (Early sleeper)</option>
+              <option>10:00 pm to 6:00 am (Standard)</option>
+              <option>12:00 am to 8:00 am (Night study owl)</option>
             </select>
           </div>
 
@@ -414,7 +414,7 @@ export function FloorGrid({
             }`}
             onClick={() => onSelect(room)}
             data-testid={`button-floor-room-${room.number}`}
-            title={`Room ${room.number} (${room.type}, Floor ${room.floor}) - ${room.status}`}
+            title={`Room ${room.number} (${room.type}, Floor ${room.floor}): ${room.status}`}
           >
             <small>{room.number}</small>
             <span>{room.status}</span>

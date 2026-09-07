@@ -567,10 +567,10 @@ export function StudentProfile({
                     onChange={(e) => handlePrefChange('quietHours', e.target.value)}
                     data-testid="select-profile-quietHours"
                   >
-                    <option>9:00 pm – 5:00 am</option>
-                    <option>10:00 pm – 6:00 am</option>
-                    <option>11:00 pm – 7:00 am</option>
-                    <option>Midnight – 8:00 am</option>
+                    <option>9:00 pm to 5:00 am</option>
+                    <option>10:00 pm to 6:00 am</option>
+                    <option>11:00 pm to 7:00 am</option>
+                    <option>Midnight to 8:00 am</option>
                     <option>Flexible / Moderate</option>
                   </select>
                 </div>
@@ -588,7 +588,7 @@ export function StudentProfile({
                     data-testid="select-profile-studyHabit"
                   >
                     <option>Night owl (Study after 8pm)</option>
-                    <option>Early riser (Study 5:00 am - 9:00 am)</option>
+                    <option>Early riser (Study 5:00 am to 9:00 am)</option>
                     <option>Afternoon study session</option>
                     <option>Library regular (Rarely in room during day)</option>
                     <option>Group study friendly</option>
@@ -609,7 +609,7 @@ export function StudentProfile({
                   >
                     <option>Late sleeper (after 12am)</option>
                     <option>Early sleeper (before 10:30pm)</option>
-                    <option>Standard (11:00pm - 7:00am)</option>
+                    <option>Standard (11:00 pm to 7:00 am)</option>
                     <option>Irregular / Exam mode</option>
                   </select>
                 </div>
@@ -776,7 +776,7 @@ export function StudentProfile({
                     onClick={() => {
                       setPrefForm((prev) => ({
                         ...prev,
-                        quietHours: '11:00 pm – 7:00 am',
+                        quietHours: '11:00 pm to 7:00 am',
                         studyHabit: 'Night owl (Study after 8pm)',
                         sleepSchedule: 'Late sleeper (after 12am)',
                         noiseTolerance: 'Low ambient sound',
@@ -800,8 +800,8 @@ export function StudentProfile({
                     onClick={() => {
                       setPrefForm((prev) => ({
                         ...prev,
-                        quietHours: '10:00 pm – 6:00 am',
-                        studyHabit: 'Early riser (Study 5:00 am - 9:00 am)',
+                        quietHours: '10:00 pm to 6:00 am',
+                        studyHabit: 'Early riser (Study 5:00 am to 9:00 am)',
                         sleepSchedule: 'Early sleeper (before 10:30pm)',
                         noiseTolerance: 'Strict silence (Headphones only)',
                         cleanlinessLevel: 5,

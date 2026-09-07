@@ -83,7 +83,7 @@ create table if not exists public.preferences (
   student_reg_no text primary key references public.students(reg_no) on delete cascade,
   room_type text not null default 'Double room',
   floor text not null default '2nd floor',
-  quiet_hours text not null default '11:00 pm – 7:00 am',
+  quiet_hours text not null default '11:00 pm to 7:00 am',
   roommate_reg_no text default '',
   study_habit text default 'Night owl',
   special_needs text default '',

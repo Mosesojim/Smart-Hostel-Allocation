@@ -53,7 +53,7 @@ export function StudentMaintenance({
     roomNumber: student.room || 'B-214',
     priority: 'Medium',
     description: '',
-    preferredTime: 'Morning (8am – 12pm)',
+    preferredTime: 'Morning (8am to 12pm)',
   });
 
   const studentTickets = useMemo(() => {
@@ -103,7 +103,7 @@ export function StudentMaintenance({
       roomNumber: student.room || 'B-214',
       priority: 'Medium',
       description: '',
-      preferredTime: 'Morning (8am – 12pm)',
+      preferredTime: 'Morning (8am to 12pm)',
     });
   };
 
@@ -193,7 +193,7 @@ export function StudentMaintenance({
             </div>
             <div style={{ display: 'flex', justifyContent: 'space-between' }}>
               <span>Standard (Furniture, painting):</span>
-              <strong>2 – 3 business days</strong>
+              <strong>2 to 3 business days</strong>
             </div>
           </div>
         </div>
@@ -371,9 +371,9 @@ export function StudentMaintenance({
                     value={form.preferredTime}
                     onChange={(e) => setForm({ ...form, preferredTime: e.target.value })}
                   >
-                    <option>Morning (8am – 12pm)</option>
-                    <option>Afternoon (12pm – 4pm)</option>
-                    <option>Evening (4pm – 7pm)</option>
+                    <option>Morning (8am to 12pm)</option>
+                    <option>Afternoon (12pm to 4pm)</option>
+                    <option>Evening (4pm to 7pm)</option>
                     <option>Anytime (Urgent)</option>
                   </select>
                 </div>

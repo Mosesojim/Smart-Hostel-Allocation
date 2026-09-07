@@ -39,7 +39,7 @@ export function AuthPage({ onEnter }: { onEnter: (role: Role) => void }) {
 
         <div className="auth-quote">
           <strong>“The matching algorithm paired me with roommates who study during my exact hours.”</strong>
-          <span style={{ display: 'block', marginTop: 3, opacity: 0.8 }}>— Victory Okafor, 300 Level Computer Science</span>
+          <span style={{ display: 'block', marginTop: 3, opacity: 0.8 }}>Victory Okafor, 300 Level Computer Science</span>
         </div>
       </section>
 

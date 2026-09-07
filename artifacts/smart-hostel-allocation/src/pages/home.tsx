@@ -222,7 +222,7 @@ export function HomePage({ onLogin }: { onLogin: () => void }) {
             </h1>
             
             <p className="animate-slide-up stagger-3" style={{ fontSize: 'clamp(15px, 1.35vw, 18px)', color: '#555', lineHeight: 1.6, maxWidth: 500, marginBottom: 36 }}>
-              Haven makes campus living more personal. Tell us how you live, and find a room — and a rhythm — that fits your next chapter.
+              Haven makes campus living more personal. Tell us how you live, and find a room and a rhythm that fit your next chapter.
             </p>
             
             <div className="animate-slide-up stagger-4" style={{ display: 'flex', flexDirection: 'column', gap: 18, alignItems: 'flex-start' }}>
@@ -282,7 +282,7 @@ export function HomePage({ onLogin }: { onLogin: () => void }) {
             Preferences are not paperwork. <span className="font-serif-accent" style={{ color: accent, fontSize: '1.08em' }}>They are the beginning.</span>
           </h2>
           <p style={{ fontSize: 'clamp(15px, 1.35vw, 18px)', color: '#555', lineHeight: 1.6, maxWidth: 640 }}>
-            Sleep schedules, study habits, floor preferences and the person you want beside you — Haven gives those details a meaningful place in the allocation conversation.
+            From sleep schedules and study habits to floor preferences and roommate choices, Haven gives every detail a meaningful place in the allocation conversation.
           </p>
         </div>
 
@@ -372,7 +372,7 @@ export function HomePage({ onLogin }: { onLogin: () => void }) {
             Clarity for the people making <span className="font-serif-accent" style={{ color: accent, fontSize: '1.08em' }}>hundreds of homes.</span>
           </h2>
           <p style={{ fontSize: 15.5, color: '#555', lineHeight: 1.6, marginBottom: 32 }}>
-            Haven brings the allocation queue, floor plan and student preferences into one considered workspace — so every decision can be quick, fair and easy to explain.
+            Haven brings the allocation queue, floor plan and student preferences into one considered workspace so every decision can be quick, fair and easy to explain.
           </p>
           <button onClick={onLogin} style={{ display: 'inline-flex', alignItems: 'center', gap: 12, background: cardPeach, color: textMain, fontSize: 14, fontWeight: 700, padding: '16px 28px', borderRadius: 99, border: 'none', cursor: 'pointer' }}>
             Enter the admin demo <ArrowUpRight size={18} strokeWidth={2.2} />
