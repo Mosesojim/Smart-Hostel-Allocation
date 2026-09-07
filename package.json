@@ -5,7 +5,7 @@
   "scripts": {
     "start": "bun run --cwd artifacts/smart-hostel-allocation dev",
     "dev": "bun run --cwd artifacts/smart-hostel-allocation dev",
-    "build": "bun run --cwd artifacts/smart-hostel-allocation build",
+    "build": "bun run --cwd artifacts/smart-hostel-allocation build 2>/dev/null || (cd artifacts/smart-hostel-allocation && npm run build)",
     "typecheck": "bun run --cwd artifacts/smart-hostel-allocation typecheck",
     "lint": "bun run --cwd artifacts/smart-hostel-allocation typecheck"
   },
